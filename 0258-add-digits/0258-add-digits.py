@@ -20,5 +20,5 @@ class Solution(object):
             sum=0
             for i in str(num):
                 sum+=int(i)
-            num=sum
+                num=sum
         return num
