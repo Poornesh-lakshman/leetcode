@@ -10,6 +10,4 @@ class Solution(object):
         for i in range(len(s)):
             if d[s[i]]==1:
                 return i
-                
-        else:
-            return -1
+        return -1
