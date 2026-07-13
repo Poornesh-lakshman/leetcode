@@ -12,5 +12,4 @@ class Solution(object):
         if len(d)==0:
             return letters[0]
         else:
-            sorted(d)
             return chr(d[0])
