@@ -4,7 +4,6 @@ class Solution:
         a=[]
         for i in range(len(nums)):
             if target==nums[i]:
-                a.append( abs(i-start))
-        if a:
-            return min(a)
+                a.append(abs(i-start))
+        return min(a)
         
