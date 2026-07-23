@@ -5,7 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        nums=sorted(nums)
+        
         l=0
         h=len(nums)-1
         while l<=h:
