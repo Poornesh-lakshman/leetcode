@@ -1,4 +1,4 @@
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
-        c=sorted(nums)
-        return max(c[-3]*c[-2]*c[-1],c[0]*c[1]*c[-1])
+        nums.sort()
+        return max(nums[-3]*nums[-2]*nums[-1],nums[0]*nums[1]*nums[-1])
