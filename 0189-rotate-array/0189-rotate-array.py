@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        k %= len(nums)
         for i in range(k):
             a=nums[-1]
             nums.pop()
