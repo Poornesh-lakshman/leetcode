@@ -1,10 +1,13 @@
 class Solution:
     def areNumbersAscending(self, s: str) -> bool:
-    
-        a=-1
-        for i in s.split():
+        s=s.split()
+        c=0
+        for i in s:
             if i.isdigit():
-                if int(i)<=a:
-                    return False
-                a=int(i)
-        return True
+                m=int(i)
+                if m>c:
+                    c=m
+                    continue
+                else:
+                    return(False)
+        return(True)
