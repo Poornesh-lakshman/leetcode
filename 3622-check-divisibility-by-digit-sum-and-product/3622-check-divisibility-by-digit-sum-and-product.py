@@ -3,7 +3,7 @@ class Solution:
         x=n
         b=0
         c=1
-        while n:
+        while n!=0:
             a=n%10
             b+=a
             c*=a
