@@ -1,9 +1,5 @@
-class Solution(object):
-    def convertToBase7(self, num):
-        """
-        :type num: int
-        :rtype: str
-        """
+class Solution:
+    def convertToBase7(self, num: int) -> str:
         b=''
         if num==0:
             return '0'
@@ -17,5 +13,3 @@ class Solution(object):
             b+=str(a)
             num//=7
         return s+b[::-1]
-        
-        
